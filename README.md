@@ -2,7 +2,7 @@
 
 A free, minimalist, single-file web app to test every key on any keyboard and every button on any mouse — instantly, in the browser.
 
-**Live:** [keytester.app](https://keytester.app) *(update with your deployed URL)*
+**Live:** [keytester.app]([https://keytester.app](https://huzaifa003.github.io/Keyboard_Tester/)) *(update with your deployed URL)*
 
 ---
 
