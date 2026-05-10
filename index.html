@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b0b0b'/%3E%3Crect x='2' y='4' width='4.5' height='3.5' rx='.8' fill='%2321d4a8'/%3E%3Crect x='8' y='4' width='4.5' height='3.5' rx='.8' fill='%231c1c1c' stroke='%23303030' stroke-width='.5'/%3E%3Crect x='14' y='4' width='4.5' height='3.5' rx='.8' fill='%231c1c1c' stroke='%23303030' stroke-width='.5'/%3E%3Crect x='20' y='4' width='4.5' height='3.5' rx='.8' fill='%231c1c1c' stroke='%23303030' stroke-width='.5'/%3E%3Crect x='26' y='4' width='4' height='3.5' rx='.8' fill='%231c1c1c' stroke='%23303030' stroke-width='.5'/%3E%3Crect x='2' y='9.5' width='6' height='3.5' rx='.8' fill='%231c1c1c' stroke='%23303030' stroke-width='.5'/%3E%3Crect x='9.5' y='9.5' width='4.5' height='3.5' rx='.8' fill='%2321d4a8'/%3E%3Crect x='15.5' y='9.5' width='4.5' height='3.5' rx='.8' fill='%231c1c1c' stroke='%23303030' stroke-width='.5'/%3E%3Crect x='21.5' y='9.5' width='8.5' height='3.5' rx='.8' fill='%231c1c1c' stroke='%23303030' stroke-width='.5'/%3E%3Crect x='2' y='15' width='4.5' height='3.5' rx='.8' fill='%231c1c1c' stroke='%23303030' stroke-width='.5'/%3E%3Crect x='8' y='15' width='4.5' height='3.5' rx='.8' fill='%231c1c1c' stroke='%23303030' stroke-width='.5'/%3E%3Crect x='14' y='15' width='4.5' height='3.5' rx='.8' fill='%231c1c1c' stroke='%23303030' stroke-width='.5'/%3E%3Crect x='20' y='15' width='10' height='3.5' rx='.8' fill='%2321d4a8'/%3E%3Crect x='2' y='20.5' width='4' height='3.5' rx='.8' fill='%231c1c1c' stroke='%23303030' stroke-width='.5'/%3E%3Crect x='7.5' y='20.5' width='17' height='3.5' rx='.8' fill='%231c1c1c' stroke='%23303030' stroke-width='.5'/%3E%3Crect x='26' y='20.5' width='4' height='3.5' rx='.8' fill='%231c1c1c' stroke='%23303030' stroke-width='.5'/%3E%3Crect x='2' y='26' width='28' height='3.5' rx='.8' fill='%231c1c1c' stroke='%23303030' stroke-width='.5'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#0b0b0b">
+
+<title>Keyboard Tester — Test Every Key Online Free | KeyTester</title>
+<meta name="description" content="Free online keyboard and mouse tester. Press any key to instantly verify it works — includes media keys, macro keys, numpad, arrows, function keys, and more. Auto-detects your layout. No download, no account.">
+<meta name="keywords" content="keyboard tester, test keyboard online, key press test, keyboard checker, keyboard diagnostic, keyboard key not working, mouse button tester, numpad tester, media key test, macro key tester, keyboard layout test, online keyboard test, free keyboard tester, key not registering">
+<meta name="author" content="KeyTester">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://keytester.app/">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Keyboard & Mouse Tester — Test Every Key Online Free">
+<meta property="og:description" content="Press any key to verify it works. Tests keyboard keys, numpad, media keys, macro keys, mouse buttons, and scroll wheel. Auto-detects layout. Free, no download.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://keytester.app/">
+<meta property="og:site_name" content="KeyTester">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Keyboard & Mouse Tester — Free Online Tool">
+<meta name="twitter:description" content="Test every keyboard key and mouse button instantly. Auto-discovers media, macro, and special keys. Free, no download.">
+
+<!-- Structured Data: WebApplication -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "KeyTester — Keyboard & Mouse Tester",
+  "url": "https://keytester.app/",
+  "description": "Free online tool to test every key on any keyboard including standard keys, function keys, numpad, media keys, macro keys, and special keys. Also tests all mouse buttons and the scroll wheel. Auto-detects keyboard layout with support for QWERTY, AZERTY, QWERTZ, Dvorak, and Colemak.",
+  "applicationCategory": "UtilityApplication",
+  "operatingSystem": "Windows, macOS, Linux, ChromeOS",
+  "browserRequirements": "Requires a modern web browser — Chrome, Firefox, Safari, or Edge",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "featureList": [
+    "Full keyboard key testing with visual highlight feedback",
+    "Numpad testing with tall and wide key support",
+    "Auto-detection of keyboard layout in Chrome and Edge",
+    "Manual layout selection: QWERTY US/UK, AZERTY, QWERTZ, Dvorak, Colemak",
+    "Dynamic discovery of media, macro, and any non-standard keys",
+    "Mouse button testing for left, right, middle, forward, and back buttons",
+    "Scroll wheel up and down testing",
+    "Live last-key bar showing event.key and event.code",
+    "Key press counter and tested-key statistics",
+    "Blocks all browser shortcuts during testing for accurate results"
+  ],
+  "datePublished": "2025-01-01",
+  "dateModified": "2026-05-10",
+  "inLanguage": "en"
+}
+</script>
+
+<!-- Structured Data: FAQPage (GEO — helps AI answer engines cite this tool) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I test my keyboard keys online?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Visit KeyTester and press any key on your physical keyboard. The matching key on the virtual keyboard lights up teal when held and stays highlighted after you release it. A live bar at the top shows the exact key name and event code. The stats counter tracks how many keys you have tested."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why doesn't the Fn key register on the keyboard tester?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Fn key is processed directly by the keyboard's hardware firmware before any signal reaches the operating system or browser. This is a fundamental hardware-level limitation — no browser-based keyboard tester can capture the Fn key, because it never generates a software key event."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I test media keys, volume buttons, and macro keys?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Any key your browser can detect — including Play/Pause, Volume Up/Down, Mute, browser shortcut keys, and programmable macro keys — will automatically appear in the Special / Extra Keys section the moment you press it for the first time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I test my mouse buttons?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Click any button on your physical mouse while the page is open. The on-screen mouse diagram highlights left, right, middle, forward, and back buttons. Scroll up and down to test the scroll wheel. Right-click is fully supported — the browser context menu is disabled during testing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the keyboard tester work on Mac, Windows, and Linux?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. KeyTester runs entirely in the browser with no download or installation. It works on Windows, macOS, Linux, and ChromeOS with any modern browser including Chrome, Firefox, Safari, and Edge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What keyboard layouts are supported?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "KeyTester auto-detects your layout in Chrome and Edge using the Keyboard Layout API. It supports QWERTY US, QWERTY UK, AZERTY (French), QWERTZ (German/Central European), Dvorak, and Colemak. A manual dropdown is available as a fallback for Firefox and Safari."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does the keyboard tester block browser shortcuts like F5 and Ctrl+R?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All browser default actions — including page refresh, find-in-page, print, save, and back/forward navigation — are suppressed while you are on the page. This ensures every key press registers as a test result rather than triggering an unintended browser action, allowing accurate testing of keys like F5, Escape, Backspace, and Ctrl combinations."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Structured Data: HowTo (GEO) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to test your keyboard keys online with KeyTester",
+  "description": "A step-by-step guide to using KeyTester to verify every key on your keyboard works correctly — including media keys, numpad, and mouse buttons.",
+  "totalTime": "PT2M",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Open KeyTester",
+      "text": "Visit keytester.app in any modern browser. The full virtual keyboard layout appears instantly — no download, login, or setup required."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Press each key",
+      "text": "Press any key on your physical keyboard. The corresponding key on the virtual layout lights up teal while held, then stays highlighted after release so you can track which keys have been tested."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Test media and special keys",
+      "text": "Press media keys (Play, Pause, Volume Up/Down, Mute), macro keys, or other special keys. They appear automatically in the Extra Keys section the first time you press them."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Test mouse buttons and scroll wheel",
+      "text": "Click each button on your mouse — left, right, middle, and any side buttons. Scroll up and down to verify the scroll wheel. Each input is highlighted on the on-screen mouse diagram."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Check your results and reset",
+      "text": "The stats bar shows how many keys and mouse buttons you have tested. Click Reset to clear all highlights and run a fresh test."
+    }
+  ]
+}
+</script>
+
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+:root{
+  --bg:#0b0b0b;
+  --sf:#131313;
+  --key:#1c1c1c;
+  --kbd:#262626;
+  --kfg:#565656;
+  --abg:#21d4a8;
+  --afg:#000;
+  --dbg:#0a2820;
+  --dbd:#21d4a820;
+  --dfg:#21d4a8;
+  --dim:#333;
+  --ku:42px;
+  --kh:42px;
+  --fh:27px;
+  --kg:4px;
+}
+
+html,body{background:var(--bg);color:var(--dim);font:12px/1 system-ui,-apple-system,sans-serif;min-height:100vh}
+
+body{display:flex;flex-direction:column;align-items:center;padding:18px 16px 36px;gap:12px}
+
+/* ── Header ── */
+.hd{width:100%;max-width:1100px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.hd-brand{display:flex;align-items:center;gap:8px}
+.hd-title{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#383838}
+.hd-r{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.ly-info{font-size:10px;color:#282828;white-space:nowrap}
+.ly-info.ok{color:var(--abg)}
+
+select,button{font:inherit;background:var(--sf);border:1px solid #1e1e1e;color:#484848;border-radius:4px;padding:4px 8px;font-size:11px;cursor:pointer;outline:none;transition:border-color .1s,color .1s}
+select:hover,button:hover{border-color:#2e2e2e;color:#686868}
+select:focus{border-color:var(--abg)}
+
+/* ── Stats ── */
+.stats{font-size:10px;color:#282828;display:flex;gap:14px}
+.stats .n{color:var(--abg);font-variant-numeric:tabular-nums}
+
+/* ── Last key info bar ── */
+.last-key{
+  font-size:10px;color:#282828;
+  display:flex;align-items:center;gap:8px;
+  height:18px;font-family:monospace;
+}
+.lk-key{color:var(--abg);font-size:12px}
+.lk-sep{color:#1e1e1e}
+.lk-code{color:#383838;font-size:10px}
+
+/* ── Keyboard outer ── */
+.kb-wrap{overflow-x:auto;padding-bottom:4px;width:100%;display:flex;justify-content:center}
+.kb-outer{display:inline-flex;gap:12px;align-items:flex-start;flex-shrink:0}
+
+/* ── Main keyboard ── */
+.kb{display:flex;flex-direction:column;gap:var(--kg);flex-shrink:0}
+.row{display:flex;gap:var(--kg)}
+.row.fn{justify-content:space-between}
+.fn-grp{display:flex;gap:var(--kg)}
+
+/* ── Key base ── */
+.k{
+  flex-shrink:0;
+  width:var(--ku);height:var(--kh);
+  background:var(--key);border:1px solid var(--kbd);border-radius:4px;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  font-size:10px;color:var(--kfg);
+  user-select:none;cursor:default;gap:1px;
+  transition:background 60ms,border-color 60ms,color 60ms;
+}
+.k.fn-k{height:var(--fh);font-size:9px}
+.k sub{font-size:7px;opacity:.5;line-height:1}
+.k.act{background:var(--abg);border-color:var(--abg);color:var(--afg);box-shadow:0 0 10px #21d4a81a}
+.k.act sub{opacity:.4}
+.k.done{background:var(--dbg);border-color:var(--dbd);color:var(--dfg)}
+
+/* ── Nav block ── */
+.kb-nav{display:flex;flex-direction:column;gap:var(--kg);flex-shrink:0}
+.nav-gap{height:calc(var(--kh) + var(--kg))}
+
+/* ── Numpad ── */
+.kb-num{
+  display:grid;
+  grid-template-columns:repeat(4,var(--ku));
+  grid-template-rows:repeat(5,var(--kh));
+  gap:var(--kg);
+  flex-shrink:0;
+  margin-top:calc(var(--fh) + var(--kg));
+}
+.k.np-tall{height:calc(var(--kh)*2 + var(--kg));grid-row:span 2}
+.k.np-wide{width:calc(var(--ku)*2 + var(--kg));grid-column:span 2}
+
+/* ── Extra / discovered keys zone ── */
+.extra-zone{width:100%;max-width:1100px;display:flex;flex-direction:column;gap:7px}
+.extra-hd{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:#262626;display:flex;align-items:center;gap:8px}
+.extra-hd::after{content:'';flex:1;height:1px;background:#1a1a1a}
+.extra-keys{display:flex;flex-wrap:wrap;gap:4px}
+
+.extra-chip{
+  display:flex;flex-direction:column;align-items:center;
+  background:var(--key);border:1px solid var(--kbd);border-radius:4px;
+  padding:5px 9px;min-width:52px;gap:2px;
+  transition:background 60ms,border-color 60ms;
+}
+.ek-lbl{font-size:11px;color:var(--kfg)}
+.ek-code{font-size:7px;color:#2e2e2e;font-family:monospace}
+.extra-chip.act{background:var(--abg);border-color:var(--abg)}
+.extra-chip.act .ek-lbl,.extra-chip.act .ek-code{color:var(--afg)}
+.extra-chip.done{background:var(--dbg);border-color:var(--dbd)}
+.extra-chip.done .ek-lbl{color:var(--dfg)}
+.extra-chip.done .ek-code{color:var(--dfg);opacity:.55}
+
+/* ── Mouse ── */
+.mouse-wrap{display:flex;flex-direction:column;align-items:center;gap:10px}
+.mouse-title{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:#262626}
+.mouse-body{display:flex;gap:5px;align-items:center}
+
+.mb{
+  background:var(--key);border:1px solid var(--kbd);border-radius:4px;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  font-size:9px;color:var(--kfg);user-select:none;cursor:default;gap:2px;
+  transition:background 60ms,border-color 60ms,color 60ms;
+}
+.mb-L{width:54px;height:72px;border-radius:26px 4px 4px 26px}
+.mb-R{width:54px;height:72px;border-radius:4px 26px 26px 4px}
+.mb-M{width:32px;height:62px;border-radius:16px;font-size:8px}
+.mb-side{width:30px;height:28px;font-size:8px}
+.mb.act{background:var(--abg);border-color:var(--abg);color:var(--afg);box-shadow:0 0 8px #21d4a81a}
+.mb.done{background:var(--dbg);border-color:var(--dbd);color:var(--dfg)}
+
+.sc-col{display:flex;flex-direction:column;gap:3px;align-items:center}
+.side-col{display:flex;flex-direction:column;gap:4px}
+
+.sc{
+  width:32px;height:22px;background:var(--key);border:1px solid var(--kbd);border-radius:4px;
+  display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--kfg);
+  user-select:none;cursor:default;transition:background 60ms,border-color 60ms,color 60ms;
+}
+.sc.act{background:var(--abg);border-color:var(--abg);color:var(--afg)}
+.sc.done{background:var(--dbg);border-color:var(--dbd);color:var(--dfg)}
+
+/* ── Footer ── */
+footer{
+  width:100%;max-width:900px;
+  display:flex;flex-direction:column;gap:9px;align-items:center;
+  padding-top:16px;border-top:1px solid #141414;
+  text-align:center;
+}
+.ft-tagline{font-size:11px;color:#303030;letter-spacing:.03em}
+.ft-tips{font-size:10px;color:#242424;line-height:1.9}
+.ft-tips span{color:#1e1e1e;margin:0 4px}
+.ft-note{
+  font-size:10px;line-height:1.75;color:#282828;
+  background:#0e0e0e;border:1px solid #181818;border-radius:6px;
+  padding:10px 16px;max-width:640px;
+}
+.ft-note strong{color:#3a3a3a;font-weight:600}
+.ft-note kbd{
+  font-family:monospace;font-size:10px;
+  background:#1a1a1a;border:1px solid #2a2a2a;border-bottom-width:2px;
+  border-radius:3px;padding:1px 5px;color:#444;
+}
+.ft-copy{font-size:9px;color:#1c1c1c;letter-spacing:.05em}
+
+::-webkit-scrollbar{height:3px}
+::-webkit-scrollbar-thumb{background:#1a1a1a;border-radius:2px}
+</style>
+</head>
+<body>
+
+<header class="hd">
+  <div class="hd-brand">
+    <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <rect x="0" y="0" width="4" height="3" rx=".7" fill="#21d4a8"/>
+      <rect x="5.5" y="0" width="4" height="3" rx=".7" fill="#1f1f1f" stroke="#2e2e2e" stroke-width=".4"/>
+      <rect x="11" y="0" width="4" height="3" rx=".7" fill="#1f1f1f" stroke="#2e2e2e" stroke-width=".4"/>
+      <rect x="16.5" y="0" width="5.5" height="3" rx=".7" fill="#1f1f1f" stroke="#2e2e2e" stroke-width=".4"/>
+      <rect x="0" y="4.5" width="5.5" height="3" rx=".7" fill="#1f1f1f" stroke="#2e2e2e" stroke-width=".4"/>
+      <rect x="7" y="4.5" width="4" height="3" rx=".7" fill="#21d4a8"/>
+      <rect x="12.5" y="4.5" width="9.5" height="3" rx=".7" fill="#1f1f1f" stroke="#2e2e2e" stroke-width=".4"/>
+      <rect x="0" y="9" width="4" height="3" rx=".7" fill="#1f1f1f" stroke="#2e2e2e" stroke-width=".4"/>
+      <rect x="5.5" y="9" width="4" height="3" rx=".7" fill="#1f1f1f" stroke="#2e2e2e" stroke-width=".4"/>
+      <rect x="11" y="9" width="4" height="3" rx=".7" fill="#1f1f1f" stroke="#2e2e2e" stroke-width=".4"/>
+      <rect x="16.5" y="9" width="5.5" height="3" rx=".7" fill="#21d4a8"/>
+      <rect x="0" y="13.5" width="3.5" height="3" rx=".7" fill="#1f1f1f" stroke="#2e2e2e" stroke-width=".4"/>
+      <rect x="5" y="13.5" width="12" height="3" rx=".7" fill="#1f1f1f" stroke="#2e2e2e" stroke-width=".4"/>
+      <rect x="18.5" y="13.5" width="3.5" height="3" rx=".7" fill="#1f1f1f" stroke="#2e2e2e" stroke-width=".4"/>
+      <rect x="0" y="18" width="22" height="3" rx=".7" fill="#1f1f1f" stroke="#2e2e2e" stroke-width=".4"/>
+    </svg>
+    <span class="hd-title">Key Tester</span>
+  </div>
+  <div class="hd-r">
+    <span class="ly-info" id="lyInfo">detecting layout…</span>
+    <select id="lySel" aria-label="Keyboard layout">
+      <option value="qwerty-us">QWERTY US</option>
+      <option value="qwerty-uk">QWERTY UK</option>
+      <option value="azerty">AZERTY (FR)</option>
+      <option value="qwertz">QWERTZ (DE)</option>
+      <option value="dvorak">Dvorak</option>
+      <option value="colemak">Colemak</option>
+    </select>
+    <button id="resetBtn">Reset</button>
+  </div>
+</header>
+
+<div class="stats" role="status" aria-live="polite">
+  <span>Keys: <span class="n" id="kCount">0</span> / <span id="kTotal">—</span></span>
+  <span>Mouse: <span class="n" id="mCount">0</span> / 7</span>
+</div>
+
+<div class="last-key" id="lastKey" aria-live="polite">press any key…</div>
+
+<div class="kb-wrap" role="img" aria-label="Virtual keyboard layout">
+  <div class="kb-outer">
+    <div class="kb"     id="kb"></div>
+    <div class="kb-nav" id="kbNav"></div>
+    <div class="kb-num" id="kbNum"></div>
+  </div>
+</div>
+
+<div class="extra-zone" id="extraZone" hidden aria-live="polite">
+  <div class="extra-hd">Special / Extra Keys</div>
+  <div class="extra-keys" id="extraKeys"></div>
+</div>
+
+<div class="mouse-wrap" role="img" aria-label="Mouse button tester">
+  <div class="mouse-title">Mouse</div>
+  <div class="mouse-body">
+    <div class="side-col">
+      <div class="mb mb-side" id="mb4">Fwd</div>
+      <div class="mb mb-side" id="mb3">Back</div>
+    </div>
+    <div class="mb mb-L" id="mb0">L</div>
+    <div class="sc-col">
+      <div class="sc" id="scU">↑</div>
+      <div class="mb mb-M" id="mb1">M</div>
+      <div class="sc" id="scD">↓</div>
+    </div>
+    <div class="mb mb-R" id="mb2">R</div>
+  </div>
+</div>
+
+<footer>
+  <div class="ft-tagline">Free online keyboard &amp; mouse diagnostic — no download, no account</div>
+  <div class="ft-tips">
+    Press any key to test
+    <span>·</span> Right-click to test right mouse button
+    <span>·</span> Scroll to test the wheel
+    <span>·</span> Media &amp; macro keys appear automatically
+  </div>
+  <div class="ft-note">
+    <strong>Note:</strong> The <kbd>Fn</kbd> key is processed directly by keyboard hardware firmware before
+    reaching the OS or browser — this is a physical limitation that applies to every browser-based tester.
+    All other keys, including media keys, macro keys, <kbd>Win</kbd>, <kbd>Menu</kbd>, numpad,
+    arrows, and F1–F24, are captured and displayed.
+  </div>
+  <div class="ft-copy">KeyTester &nbsp;·&nbsp; MIT License &nbsp;·&nbsp; keytester.app</div>
+</footer>
+
+<script>
+// ── Layout overrides ──────────────────────────────────────────────────────────
+const LAYOUTS = {
+  'qwerty-us': { name:'QWERTY US', k:{} },
+  'qwerty-uk': { name:'QWERTY UK', k:{
+    Backquote:['`','¬'], Digit2:['2','"'], Digit3:['3','£'],
+    Quote:["'",'@'], Backslash:['#','~'],
+  }},
+  'azerty': { name:'AZERTY', k:{
+    KeyQ:['A'], KeyW:['Z'], KeyA:['Q'], KeyZ:['W'],
+    KeyM:[',','?'], Semicolon:['M'],
+    Digit1:['&','1'], Digit2:['é','2'], Digit3:['"','3'],
+    Digit4:["'",'4'], Digit5:['(','5'], Digit6:['-','6'],
+    Digit7:['è','7'], Digit8:['_','8'], Digit9:['ç','9'],
+    Digit0:['à','0'], Minus:[')','°'], Equal:['=','+'],
+    BracketLeft:['^','¨'], BracketRight:['$','£'],
+    Backslash:['*','μ'], Quote:['ù','%'],
+  }},
+  'qwertz': { name:'QWERTZ', k:{
+    KeyY:['Z'], KeyZ:['Y'], Minus:['ß','?'], Equal:["'",'`'],
+    BracketLeft:['ü','Ü'], BracketRight:['+','*'],
+    Backslash:['#',"'"], Semicolon:['ö','Ö'],
+    Quote:['ä','Ä'], Backquote:['^','°'],
+    Slash:['-','_'], Period:['.',':'], Comma:[',',';'],
+  }},
+  'dvorak': { name:'Dvorak', k:{
+    Minus:['[','{'], Equal:[']','}'],
+    KeyQ:["'",'"'], KeyW:[',','<'], KeyE:['.','>'],
+    KeyR:['P'], KeyT:['Y'], KeyY:['F'], KeyU:['G'],
+    KeyI:['C'], KeyO:['R'], KeyP:['L'],
+    BracketLeft:['/',  '?'], BracketRight:['=','+'],
+    KeyA:['A'], KeyS:['O'], KeyD:['E'], KeyF:['U'],
+    KeyG:['I'], KeyH:['D'], KeyJ:['H'], KeyK:['T'],
+    KeyL:['N'], Semicolon:['S'], Quote:['-','_'],
+    KeyZ:[';',':'], KeyX:['Q'], KeyC:['J'], KeyV:['K'],
+    KeyB:['X'], KeyN:['B'], KeyM:['M'],
+    Comma:['W'], Period:['V'], Slash:['Z'],
+  }},
+  'colemak': { name:'Colemak', k:{
+    KeyE:['F'], KeyR:['P'], KeyT:['G'], KeyY:['J'],
+    KeyU:['L'], KeyI:['U'], KeyO:['Y'], KeyP:[';',':'],
+    KeyS:['R'], KeyD:['S'], KeyF:['T'], KeyG:['D'],
+    KeyJ:['N'], KeyK:['E'], KeyL:['I'],
+    Semicolon:['O'], KeyN:['K'],
+  }},
+};
+
+// ── Keyboard data ─────────────────────────────────────────────────────────────
+const MAIN_ROWS = [
+  { fn:true, groups:[
+    [{code:'Escape',l:'Esc'}],
+    [{code:'F1',l:'F1'},{code:'F2',l:'F2'},{code:'F3',l:'F3'},{code:'F4',l:'F4'}],
+    [{code:'F5',l:'F5'},{code:'F6',l:'F6'},{code:'F7',l:'F7'},{code:'F8',l:'F8'}],
+    [{code:'F9',l:'F9'},{code:'F10',l:'F10'},{code:'F11',l:'F11'},{code:'F12',l:'F12'}],
+  ]},
+  { keys:[
+    {code:'Backquote',l:'`',s:'~'},
+    {code:'Digit1',l:'1',s:'!'},{code:'Digit2',l:'2',s:'@'},
+    {code:'Digit3',l:'3',s:'#'},{code:'Digit4',l:'4',s:'$'},
+    {code:'Digit5',l:'5',s:'%'},{code:'Digit6',l:'6',s:'^'},
+    {code:'Digit7',l:'7',s:'&'},{code:'Digit8',l:'8',s:'*'},
+    {code:'Digit9',l:'9',s:'('},{code:'Digit0',l:'0',s:')'},
+    {code:'Minus',l:'-',s:'_'},{code:'Equal',l:'=',s:'+'},
+    {code:'Backspace',l:'⌫',w:2},
+  ]},
+  { keys:[
+    {code:'Tab',l:'Tab',w:1.5},
+    {code:'KeyQ',l:'Q'},{code:'KeyW',l:'W'},{code:'KeyE',l:'E'},
+    {code:'KeyR',l:'R'},{code:'KeyT',l:'T'},{code:'KeyY',l:'Y'},
+    {code:'KeyU',l:'U'},{code:'KeyI',l:'I'},{code:'KeyO',l:'O'},
+    {code:'KeyP',l:'P'},{code:'BracketLeft',l:'[',s:'{'},
+    {code:'BracketRight',l:']',s:'}'},{code:'Backslash',l:'\\',s:'|',w:1.5},
+  ]},
+  { keys:[
+    {code:'CapsLock',l:'Caps',w:1.75},
+    {code:'KeyA',l:'A'},{code:'KeyS',l:'S'},{code:'KeyD',l:'D'},
+    {code:'KeyF',l:'F'},{code:'KeyG',l:'G'},{code:'KeyH',l:'H'},
+    {code:'KeyJ',l:'J'},{code:'KeyK',l:'K'},{code:'KeyL',l:'L'},
+    {code:'Semicolon',l:';',s:':'},{code:'Quote',l:"'",s:'"'},
+    {code:'Enter',l:'Enter',w:2.25},
+  ]},
+  { keys:[
+    {code:'ShiftLeft',l:'Shift',w:2.25},
+    {code:'KeyZ',l:'Z'},{code:'KeyX',l:'X'},{code:'KeyC',l:'C'},
+    {code:'KeyV',l:'V'},{code:'KeyB',l:'B'},{code:'KeyN',l:'N'},
+    {code:'KeyM',l:'M'},{code:'Comma',l:',',s:'<'},
+    {code:'Period',l:'.',s:'>'},{code:'Slash',l:'/',s:'?'},
+    {code:'ShiftRight',l:'Shift',w:2.75},
+  ]},
+  { keys:[
+    {code:'ControlLeft',l:'Ctrl',w:1.25},{code:'MetaLeft',l:'Win',w:1.25},
+    {code:'AltLeft',l:'Alt',w:1.25},
+    {code:'Space',l:'',w:6.25},
+    {code:'AltRight',l:'Alt',w:1.25},{code:'MetaRight',l:'Win',w:1.25},
+    {code:'ContextMenu',l:'☰',w:1.25},{code:'ControlRight',l:'Ctrl',w:1.25},
+  ]},
+];
+
+const NAV_ROWS = [
+  { fn:true, keys:[{code:'PrintScreen',l:'PrtSc'},{code:'ScrollLock',l:'ScrLk'},{code:'Pause',l:'Pause'}]},
+  { keys:[{code:'Insert',l:'Ins'},{code:'Home',l:'Home'},{code:'PageUp',l:'PgUp'}]},
+  { keys:[{code:'Delete',l:'Del'},{code:'End',l:'End'},{code:'PageDown',l:'PgDn'}]},
+  'gap',
+  { keys:[null,{code:'ArrowUp',l:'↑'},null]},
+  { keys:[{code:'ArrowLeft',l:'←'},{code:'ArrowDown',l:'↓'},{code:'ArrowRight',l:'→'}]},
+];
+
+const NUMPAD_KEYS = [
+  {code:'NumLock',       l:'NumLk',  r:1, c:1},
+  {code:'NumpadDivide',  l:'/',s:'÷',r:1, c:2},
+  {code:'NumpadMultiply',l:'*',s:'×',r:1, c:3},
+  {code:'NumpadSubtract',l:'-',      r:1, c:4},
+  {code:'Numpad7',       l:'7',s:'Home',r:2,c:1},
+  {code:'Numpad8',       l:'8',s:'↑',  r:2,c:2},
+  {code:'Numpad9',       l:'9',s:'PgUp',r:2,c:3},
+  {code:'NumpadAdd',     l:'+',      r:2, c:4, tall:true},
+  {code:'Numpad4',       l:'4',s:'←', r:3,c:1},
+  {code:'Numpad5',       l:'5',      r:3, c:2},
+  {code:'Numpad6',       l:'6',s:'→', r:3,c:3},
+  {code:'Numpad1',       l:'1',s:'End',r:4,c:1},
+  {code:'Numpad2',       l:'2',s:'↓', r:4,c:2},
+  {code:'Numpad3',       l:'3',s:'PgDn',r:4,c:3},
+  {code:'NumpadEnter',   l:'Enter',  r:4, c:4, tall:true},
+  {code:'Numpad0',       l:'0',s:'Ins',r:5,c:1, wide:true},
+  {code:'NumpadDecimal', l:'.',s:'Del',r:5,c:3},
+];
+
+// ── State ─────────────────────────────────────────────────────────────────────
+const pressed  = new Set();
+const tested   = new Set();
+const mTested  = new Set();
+const extraMap = new Map();
+let scUTested = false, scDTested = false;
+let layout = 'qwerty-us';
+
+const keyEls = {};
+let knownCodes = new Set();
+
+// ── Constants ─────────────────────────────────────────────────────────────────
+const KU = 42, KH = 42, FH = 27, KG = 4;
+function kw(w){ return KU * w + KG * (w - 1); }
+
+// ── Make key element ──────────────────────────────────────────────────────────
+function makeKey(key, isFn) {
+  if (!key) {
+    const sp = document.createElement('div');
+    sp.style.cssText = `width:${KU}px;height:${isFn?FH:KH}px;flex-shrink:0`;
+    return sp;
+  }
+  const el = document.createElement('div');
+  el.className = 'k' + (isFn ? ' fn-k' : '');
+  el.style.width  = kw(key.w || 1) + 'px';
+  el.style.height = (isFn ? FH : KH) + 'px';
+
+  const ov  = LAYOUTS[layout].k[key.code];
+  const lbl = ov ? ov[0] : key.l;
+  const sub = ov ? ov[1] : key.s;
+
+  el.innerHTML = sub
+    ? `<sub>${sub}</sub><span>${lbl}</span>`
+    : `<span>${lbl}</span>`;
+
+  if (key.code) keyEls[key.code] = el;
+  return el;
+}
+
+// ── Build main keyboard ───────────────────────────────────────────────────────
+function buildKeyboard() {
+  const kb = document.getElementById('kb');
+  kb.innerHTML = '';
+  Object.keys(keyEls).forEach(k => delete keyEls[k]);
+
+  MAIN_ROWS.forEach(row => {
+    const rowEl = document.createElement('div');
+    if (row.fn) {
+      rowEl.className = 'row fn';
+      rowEl.style.width = (15 * KU + 14 * KG) + 'px';
+      row.groups.forEach(grp => {
+        const g = document.createElement('div');
+        g.className = 'fn-grp';
+        grp.forEach(k => g.appendChild(makeKey(k, true)));
+        rowEl.appendChild(g);
+      });
+    } else {
+      rowEl.className = 'row';
+      row.keys.forEach(k => rowEl.appendChild(makeKey(k, false)));
+    }
+    kb.appendChild(rowEl);
+  });
+}
+
+// ── Build nav cluster ─────────────────────────────────────────────────────────
+function buildNav() {
+  const nav = document.getElementById('kbNav');
+  nav.innerHTML = '';
+
+  NAV_ROWS.forEach(row => {
+    if (row === 'gap') {
+      const g = document.createElement('div');
+      g.className = 'nav-gap';
+      nav.appendChild(g);
+      return;
+    }
+    const rowEl = document.createElement('div');
+    rowEl.className = 'row';
+    row.keys.forEach(k => rowEl.appendChild(makeKey(k, !!row.fn)));
+    nav.appendChild(rowEl);
+  });
+}
+
+// ── Build numpad ──────────────────────────────────────────────────────────────
+function buildNumpad() {
+  const num = document.getElementById('kbNum');
+  num.innerHTML = '';
+
+  NUMPAD_KEYS.forEach(key => {
+    const el = document.createElement('div');
+    el.className = 'k' + (key.tall ? ' np-tall' : '') + (key.wide ? ' np-wide' : '');
+    el.style.gridRow    = key.tall ? `${key.r} / ${key.r + 2}` : String(key.r);
+    el.style.gridColumn = key.wide ? `${key.c} / ${key.c + 2}` : String(key.c);
+
+    const ov  = LAYOUTS[layout].k[key.code];
+    const lbl = ov ? ov[0] : key.l;
+    const sub = ov ? ov[1] : key.s;
+
+    el.innerHTML = sub
+      ? `<sub>${sub}</sub><span>${lbl}</span>`
+      : `<span>${lbl}</span>`;
+
+    keyEls[key.code] = el;
+    num.appendChild(el);
+  });
+}
+
+// ── Rebuild all sections ──────────────────────────────────────────────────────
+function rebuild() {
+  buildKeyboard();
+  buildNav();
+  buildNumpad();
+  knownCodes = new Set(Object.keys(keyEls));
+}
+
+// ── Reapply states after rebuild ──────────────────────────────────────────────
+function reapplyStates() {
+  tested.forEach(code => {
+    const el = keyEls[code];
+    if (!el) return;
+    el.classList.remove('act', 'done');
+    el.classList.add(pressed.has(code) ? 'act' : 'done');
+  });
+}
+
+// ── Stats ─────────────────────────────────────────────────────────────────────
+function countKeys() {
+  let n = 0;
+  MAIN_ROWS.forEach(r => {
+    if (r.fn) r.groups.forEach(g => n += g.length);
+    else r.keys.forEach(k => k && k.code && n++);
+  });
+  NAV_ROWS.forEach(r => r && r !== 'gap' && r.keys.forEach(k => k && k.code && n++));
+  NUMPAD_KEYS.forEach(() => n++);
+  return n;
+}
+
+function updateStats() {
+  document.getElementById('kCount').textContent = tested.size;
+  const mc = mTested.size + (scUTested?1:0) + (scDTested?1:0);
+  document.getElementById('mCount').textContent = mc;
+}
+
+// ── Last key bar ──────────────────────────────────────────────────────────────
+function showLastKey(evtKey, evtCode) {
+  const el = document.getElementById('lastKey');
+  const safe = evtKey.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  const display = safe.length === 1 ? `"${safe}"` : safe;
+  el.innerHTML = `<span class="lk-key">${display}</span><span class="lk-sep">·</span><span class="lk-code">${evtCode}</span>`;
+}
+
+// ── Extra key zone ────────────────────────────────────────────────────────────
+function touchExtraKey(code, evtKey, state) {
+  document.getElementById('extraZone').hidden = false;
+
+  if (!extraMap.has(code)) {
+    const chip = document.createElement('div');
+    chip.className = 'extra-chip';
+    const safe = evtKey.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    chip.innerHTML = `<span class="ek-lbl">${safe}</span><span class="ek-code">${code}</span>`;
+    document.getElementById('extraKeys').appendChild(chip);
+    extraMap.set(code, chip);
+  }
+
+  const chip = extraMap.get(code);
+  chip.classList.remove('act', 'done');
+  chip.classList.add(state);
+}
+
+// ── Keyboard events ───────────────────────────────────────────────────────────
+document.addEventListener('keydown', e => {
+  e.preventDefault();
+  const c = e.code, k = e.key;
+
+  showLastKey(k, c);
+  pressed.add(c);
+  tested.add(c);
+
+  if (knownCodes.has(c)) {
+    const el = keyEls[c];
+    if (el) { el.classList.remove('done'); el.classList.add('act'); }
+  } else {
+    touchExtraKey(c, k, 'act');
+  }
+  updateStats();
+});
+
+document.addEventListener('keyup', e => {
+  e.preventDefault();
+  const c = e.code, k = e.key;
+  pressed.delete(c);
+
+  if (knownCodes.has(c)) {
+    const el = keyEls[c];
+    if (el) { el.classList.remove('act'); el.classList.add('done'); }
+  } else {
+    touchExtraKey(c, k, 'done');
+  }
+});
+
+// ── Mouse events ──────────────────────────────────────────────────────────────
+document.addEventListener('mousedown', e => {
+  if (e.button > 4) return;
+  const el = document.getElementById('mb' + e.button);
+  if (el) { el.classList.remove('done'); el.classList.add('act'); }
+});
+
+document.addEventListener('mouseup', e => {
+  if (e.button > 4) return;
+  mTested.add(e.button);
+  const el = document.getElementById('mb' + e.button);
+  if (el) { el.classList.remove('act'); el.classList.add('done'); }
+  updateStats();
+});
+
+document.addEventListener('contextmenu', e => e.preventDefault());
+
+const scTimer = {};
+document.addEventListener('wheel', e => {
+  e.preventDefault();
+  const up = e.deltaY < 0;
+  const id = up ? 'scU' : 'scD';
+  const el = document.getElementById(id);
+  if (!el) return;
+  el.classList.remove('done'); el.classList.add('act');
+  clearTimeout(scTimer[id]);
+  scTimer[id] = setTimeout(() => {
+    el.classList.remove('act'); el.classList.add('done');
+    if (up) scUTested = true; else scDTested = true;
+    updateStats();
+  }, 180);
+}, { passive:false });
+
+// ── Block browser navigation ──────────────────────────────────────────────────
+window.addEventListener('beforeunload', e => { e.preventDefault(); e.returnValue = ''; });
+
+// ── Reset ─────────────────────────────────────────────────────────────────────
+document.getElementById('resetBtn').addEventListener('click', () => {
+  pressed.clear(); tested.clear();
+  Object.values(keyEls).forEach(el => el.classList.remove('act','done'));
+
+  mTested.clear(); scUTested = false; scDTested = false;
+  ['mb0','mb1','mb2','mb3','mb4','scU','scD'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.classList.remove('act','done');
+  });
+
+  extraMap.forEach(chip => chip.classList.remove('act','done'));
+  document.getElementById('lastKey').textContent = 'press any key…';
+
+  updateStats();
+});
+
+// ── Layout selector ───────────────────────────────────────────────────────────
+document.getElementById('lySel').addEventListener('change', e => {
+  layout = e.target.value;
+  rebuild();
+  reapplyStates();
+});
+
+// ── Auto-detect layout ────────────────────────────────────────────────────────
+async function detectLayout() {
+  const info = document.getElementById('lyInfo');
+  const sel  = document.getElementById('lySel');
+
+  if (!navigator.keyboard || !navigator.keyboard.getLayoutMap) {
+    info.textContent = 'select layout:';
+    return;
+  }
+  try {
+    const map = await navigator.keyboard.getLayoutMap();
+    const g = c => (map.get(c) || '').toLowerCase();
+    let detected = 'qwerty-us';
+    if      (g('KeyQ') === 'a'  && g('KeyZ') === 'w') detected = 'azerty';
+    else if (g('KeyY') === 'z'  && g('KeyZ') === 'y') detected = 'qwertz';
+    else if (g('KeyQ') === "'"  && g('KeyS') === 'o') detected = 'dvorak';
+    else if (g('KeyE') === 'f'  && g('KeyS') === 'r') detected = 'colemak';
+
+    layout = detected;
+    sel.value = detected;
+    info.textContent = '✓ ' + LAYOUTS[detected].name;
+    info.className = 'ly-info ok';
+    rebuild();
+  } catch {
+    info.textContent = 'select layout:';
+  }
+}
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+rebuild();
+document.getElementById('kTotal').textContent = countKeys();
+updateStats();
+detectLayout();
+</script>
+</body>
+</html>
